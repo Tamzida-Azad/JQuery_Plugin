@@ -1,0 +1,97 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #colour{
+        color: #ff3d3d;
+        display: block;
+    }
+
+    .warning{
+        margin-top: 20px;
+    }
+    #tg1, #tg2, #tg3, #tg4{
+       margin-bottom: 9px;
+       width: 50%;
+       display: inline-block; 
+   }
+   #flip, #flip1, #flip2, #stop{
+      margin-bottom: 9px;
+      display: inline-block; 
+      width: 50%;
+  }
+  #set4, #set5, #set1, #set2, #set3{
+   margin-bottom: 9px;
+   display: inline-block; 
+}
+
+#droppable, #resizable, #animate {
+ width: 200px; 
+ height: 200px; 
+}
+#resizable{
+    margin-bottom: 10px;
+}
+
+#selectable {
+    width: 27%;
+}
+#sortable li {
+   margin: 3px 3px 3px 0; 
+   display: inline-block;
+   width: 27px; 
+   height: 40px; 
+   font-size: 20px;
+}
+.column {
+    float: none;
+}
+.portlet {
+    margin-bottom: 16px;
+}
+.accordion_item{
+    margin-bottom: 20px;
+}
+#accordion-resizer {
+    width: auto;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #resizable{
+        margin-bottom: 10px;
+    }
+    #selectable {
+        width: 24%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #resizable{
+        margin-bottom: 10px;
+    }
+    #selectable {
+        width: 30%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #resizable{
+        margin-bottom: 10px;
+    }
+    #selectable {
+        width: 30%;
+    }
+}
+
+/*Custom Extra Large*/
+@media (min-width: 1199.98px) and (max-width: 1535.98px) {
+
+}
+
+/* Custom Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1536px) {
+
+}
